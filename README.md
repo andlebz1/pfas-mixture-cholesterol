@@ -4,7 +4,7 @@ A small, reproducible analysis of how a **mixture of PFAS chemicals in blood** r
 
 **Main result:** increasing all five PFAS together by one quartile was associated with **7.7 mg/dL higher total cholesterol** (95% CI 4.7–10.7). PFDeA and PFHxS contributed most to this effect.
 
-![Single-PFAS results](figures/single_pfas.png)
+![Single-PFAS results](single_pfas.png)
 
 ## Question
 
@@ -43,7 +43,7 @@ Is the mixture of PFAS in blood associated with total cholesterol in US adults, 
 | Positive (sum of coefficients 9.45) | PFDeA 0.33 · PFHxS 0.29 · PFOA 0.22 · PFOS 0.16 |
 | Negative (sum of coefficients −1.75) | PFNA 1.00 |
 
-![qgcomp weights](figures/qgcomp_weights.png)
+![qgcomp weights](qgcomp_weights.png)
 
 **What this shows.** PFNA was positively associated with cholesterol on its own but received a small negative weight in the mixture model. PFNA is strongly correlated with PFDeA (r = 0.69) and PFOS (r = 0.58), so its single-chemical association may partly reflect those exposures. This is the reason to analyse correlated exposures as a mixture. Weights are not tests of significance, so the small negative PFNA weight should be read with caution.
 
