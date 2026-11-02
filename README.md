@@ -63,9 +63,6 @@ Is the mixture of PFAS in blood associated with total cholesterol in US adults, 
 
 Packages: tidyverse, haven, broom, qgcomp.
 
-## Note on AI assistance
-
-The code was written with help from an AI assistant (Claude). I ran every step myself, checked the data (including catching a wrongly loaded file), and interpreted and wrote up the results.
 
 ## Author
 
